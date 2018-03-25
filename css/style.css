@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Arapey|Montserrat:300,400|Old+Standard+TT');
+body{
+	font-family: 'Arapey', serif;
+	font-size: 14px;
+	color: #000;
+}
+header{
+	background-color:#CCC;
+	
+}
+
+.foto{
+	margin-top:5px;
+	padding:10px 10px;
+}
+#sec-sobremi{
+	background-color:#CCC;
+	color: #F06;
+	padding:30px 10px;
+	font-size: 18px;
+}
+.cuadro{
+	background-color: #efefef;
+	text-align: center;
+	padding: 50px 10px 10px;
+}
+.grande{
+	font-size:30px;
+	text-align:center;	
+	padding-bottom:50%;
+	
+	
+}
+.titulos{
+	font-size:36px;
+	text-align:center;	
+	padding-bottom:10%;
+	
+	
+}
+.servicio{
+	position: relative;
+	cursor: pointer;                                                 
+	
+}
+.overlay{
+	background-color: rgba(0,0,0,0.60);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.info-servicio{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	text-align: center;
+	color:#FFFFFF;
+	padding: 10%;
+	transition: all 0.3s ease-in-out;
+}
+
+.servicio:hover .info-servicio{
+	
+	opacity:1;
+	background-color: rgba(13,105,151,0.50);
+	transition: all 0.3s ease-in-out;
+}
+
+#sec-content{
+	padding: 40px 0px;
+}
+
+#sec-footer{
+	background-color: #666;
+	color: #FFFFFF;
+	padding: 30px 0px;
+		
+}
+#sec-footer p {
+	color:#FFF;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size:14px;
+	
+}
+#sec-footer ul{
+	list-style: none;	
+}
+#sec-footer a{ color: #FFFFFF;
+	text-decoration: none;
+	
+}
+#sec-footer a:hover { color: #39F;
+	text-decoration: none;
+	
+}
+#sec-copy{
+	
+	background-color:#333;
+	color: #FFF;
+	padding: 25px 0px ;
+	text-align: center;
+}
